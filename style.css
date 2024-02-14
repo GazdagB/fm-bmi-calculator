@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* FONT IMPORTS */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+}
+
+/* VARAIBLES */
+:root{
+    --primary-background: #345ff6;
+    --primary-text-color: #253347;
+    --secondary-text-color: #5E6E85;
+    --white: #ffffff;
+    --border-colors: #D8E2E7; 
+    font-size: 62.5%;
+}
+
+/* UTILITY CLASSES */
+
+/* ========TYPOGRAPHY============ */
+.u-heading-xl{
+font-size: 6.4rem;
+line-height: 110%;
+font-weight: 500;
+}
+
+.u-heading-l{
+font-size: 4.8rem;
+line-height: 110%;
+font-weight: 500;
+}
+
+.u-heading-m{
+font-size: 2.4rem;
+line-height: 110%;
+font-weight: 500;
+}
+
+.u-heading-s{
+font-size: 2rem;
+line-height: 110%;
+font-weight: 500;
+}
+
+.u-body-m{
+font-size: 1.6rem;
+line-height: 150%;
+}
+
+.u-body-m-bold{
+font-size: 1.6rem;
+line-height: 150%;
+font-weight: 500;
+}
+
+.u-body-s{
+font-size: 1.4rem;
+line-height: 150%;
+}
+/* ================================ */
