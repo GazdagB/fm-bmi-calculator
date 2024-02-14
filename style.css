@@ -26,6 +26,8 @@
     --secondary-text-color: #5E6E85;
     --white: #ffffff;
     --border-colors: #D8E2E7; 
+    --primary-gradient: linear-gradient(to top left , rgba(214,230,254,1) , rgba(214,252,254,0));
+    --secondary-gradient: linear-gradient(to right , rgba(214,230,254,1) , rgba(214,252,254,0));
     font-size: 62.5%;
 }
 
