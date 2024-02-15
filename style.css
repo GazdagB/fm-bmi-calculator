@@ -74,3 +74,227 @@ font-size: 1.4rem;
 line-height: 150%;
 }
 /* ================================ */
+
+.hero{
+    height: 730px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0 100px;
+    margin-bottom: 65px;
+}
+
+.header{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 77px;
+    left: 100px;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 24px;
+    width: 978px;
+    height: 737px;
+    background: var(--primary-gradient);
+    z-index: -1;
+    border-radius: 0 0 35px 35px;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: start;
+    width: 564px;
+    height: fit-content;
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+}
+
+.detail-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.result{
+    background-color: var(--primary-background);
+    width: 500px;
+    height: 166px;
+    border-radius: 16px 100px 100px 16px;
+    padding: 32px;
+    color: var(--white);
+}
+
+.input-text{
+    padding: 20px 24px ;
+}
+
+.input-text-container{
+    display: flex;
+    gap: 24px;
+}
+
+.input-text-container input{
+    width: 100%;
+    border: var(--border-colors) 1px solid;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 20px 24px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.input-text-container div label{
+    margin-bottom: 8px;
+}
+
+[for="wight"]{
+    margin-bottom: 8px;
+}
+
+input[type="radio"]{
+    height: 31px;
+    aspect-ratio: 1;
+}
+
+.radio-container{
+    display: flex;
+    gap: 24px;
+}
+
+.radio-container > div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+}
+
+img.eating-man{
+    height: 533px;
+}
+
+.hero-text{
+    max-width: 510px;
+}
+
+.hero-text h1{
+    margin-bottom: 35px;
+}
+
+.your-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 131px;
+    margin-bottom: 96px;
+}
+
+.your-result > div{
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.your-result h2{
+    margin-bottom: 35px;
+}
+
+.tips{
+    background: var(--primary-gradient);
+    margin: 0 24px;
+    border-radius: 35px;
+    height: 402px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px ;
+    padding: 72px 116px;
+    margin-bottom: 144px;
+}
+
+.tips div img {
+    margin-bottom: 45px;
+}
+
+.tips div h3{
+    margin-bottom: 24px;
+}
+
+.limitations{
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.limitation-text{
+    width: 564px;
+   
+}
+
+.limitation-text h2{
+    margin-bottom: 35px;
+}
+
+
+
+.card{
+    width: 365px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+    border-radius: 16px;
+    position: relative;
+}
+
+
+.row{
+    display: flex;
+    gap: 32px;
+}
+
+.row-1{
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding-right: 100px ;
+}
+
+.row-2{
+    justify-content: end;
+    margin-bottom: 24px ;
+}
+
+.row-3{
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.card-1{
+    z-index: 1;
+    position: relative;
+}
+
+.card-2, .card-3{
+    z-index: 2;
+    position: relative;
+}
+
+.card > div{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 16px;
+}
