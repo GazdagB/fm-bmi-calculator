@@ -75,6 +75,8 @@ line-height: 150%;
 }
 /* ================================ */
 
+
+
 .hero{
     height: 730px;
     display: flex;
@@ -179,6 +181,22 @@ input[type="radio"]{
     gap: 24px;
 }
 
+.height-wrapper{
+    position: relative;
+}
+
+.weight-wrapper{
+    position: relative;
+}
+
+.height-wrapper::after, .weight-wrapper::after{
+    content: attr(data-unit);
+    right: 24px;
+    top: 50%;
+    position: absolute;
+    color: var(--primary-background);
+}
+
 .radio-container > div{
     display: flex;
     gap: 8px;
@@ -258,6 +276,7 @@ img.eating-man{
     box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
     border-radius: 16px;
     position: relative;
+    background: var(--white);
 }
 
 
@@ -283,12 +302,17 @@ img.eating-man{
 }
 
 .card-1{
-    z-index: 1;
+    z-index: 2;
     position: relative;
 }
 
 .card-2, .card-3{
-    z-index: 2;
+    z-index: 3;
+    position: relative;
+}
+
+.card-4, .card-5{
+    z-index: 4;
     position: relative;
 }
 
